@@ -5,7 +5,7 @@ import tkinter as tk
 
 def shutdown_30_min():
     root.withdraw()
-    timer = 1 * 60
+    timer = 30 * 60
     time.sleep(timer)
     shutdown_command = "shutdown /s /t 00"
     os.system(shutdown_command)
